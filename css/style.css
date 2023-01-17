@@ -3,9 +3,24 @@
   padding: 0;
 }
 
+body{
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: #333;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 #progress {
   position: relative;
   margin-bottom: 30px;
+  width: 60vw;
 }
 
 #progress-bar {
@@ -38,12 +53,12 @@
   position: relative;
   border: 3px solid lightgray;
   border-radius: 100%;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   background: #fff;
-  font-size: 14px;
+  font-size: 15px;
   z-index: 1;
 }
 
@@ -51,4 +66,9 @@
   border: lightseagreen;
   background: lightseagreen;
   color: #fff;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px;
 }

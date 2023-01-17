@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Progress Bar</title>
 </head>
 <body>
-  <div id="progress">
-    <div id="progress-bar"></div>
-    <ul id="progress-num">
-      <li class="step active">1</li>
-      <li class="step">2</li>
-      <li class="step">3</li>
-      <li class="step">4</li>
-    </ul>
+  <div id="container">  
+    <div id="progress">
+      <div id="progress-bar"></div>
+      <ul id="progress-num">
+        <li class="step active">1</li>
+        <li class="step">2</li>
+        <li class="step">3</li>
+        <li class="step">4</li>
+      </ul>
+    </div>
+
+    <div>
+      <button id="progress-prev" class="btn" disabled>Prev</button>
+      <button id="progress-next" class="btn">Next</button>
+    </div>
   </div>
-
-  <button id="progress-prev" class="btn" disabled>Prev</button>
-  <button id="progress-next" class="btn">Next</button>
-
   <script src="./javaScript/script.js"></script>
 </body>
 </html>
